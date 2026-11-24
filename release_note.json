@@ -1,0 +1,65 @@
+{
+    "product": "Shopping App",
+    "version": "1.2.0",
+    "date": "2026-10-03",
+    "audiences":
+    [
+        {
+            "audience_type": "Customer",
+            "audience_title": "Customer Storefront Updates",
+            "changes":
+            [
+                {
+                    "ticket": "SA-209",
+                    "type": "new",
+                    "description": "Added 'Dark mode' in Settings."
+                },
+                {
+                    "ticket": "SA-210",
+                    "type": "new",
+                    "description": "Added a option to add items to 'Wishlist'."
+                },
+                {
+                    "ticket": "SA-211",
+                    "type": "improved",
+                    "description": "Optimized loading of product pages."
+                },
+                {
+                    "ticket": "SA-212",
+                    "type": "removed",
+                    "description": "Removed the 'Compare Products' tool."
+                }
+            ]
+        },
+        {
+            "audience_type": "Merchant",
+            "audience_title": "Merchant Portal Updates",
+            "changes":
+            [
+                {
+                    "ticket": "SA-213",
+                    "type": "new",
+                    "description": "Added real-time settlement tracking and payout export tool."
+                },
+                {
+                    "ticket": "SA-214",
+                    "type": "removed",
+                    "description": "Removed payment by cheque for payouts."
+                },
+                {
+                    "ticket": "SA-215",
+                    "type": "new",
+                    "description": "Added support for credit card payments during checkout."
+                },
+                {
+                    "ticket": "SA-216",
+                    "type": "improved",
+                    "description": "Optimized loading merchant dashboard."
+                }
+                
+                
+                
+            ]
+        }
+    ]
+}
